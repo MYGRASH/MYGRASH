@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="navyblue">
+    <table border="20" width="50%" height="500px" bgcolor="blue" align="center">
+        <tr>
+            <td>
+                <table border="1" width="80%" height="400px" bgcolor="navy blue" align="center">
+                    <tr>
+                        <td>
+                            <table border="1" width="70%" height="300px" bgcolor="green" align="center">
+                                <tr>
+                                    <td>
+                                        <table border="1" width="60%" height="200px" bgcolor="orange" align="center">
+                                            <tr>
+                                                <td>
+                                                    <table border="1" width="50%" height="100px" bgcolor="yellow" align="center">
+                                                        <tr>
+                                                            <td>
+                                                                
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr color="red" width="100%">
+    <br/>
+    
+    <caption><h1><u><center> NESTED TABLE</center></u></h1></caption>
+    <table border="1" width="70%" bgcolor="white" align="center">
+        <tr>
+            <td>header column1</td>
+            <td>header column2</td>
+            <td>header column3</td>
+            <td>header column4</td>
+        </tr>
+        <tr>
+            <td>row2-item1</td>
+            <td>row2-item2</td>
+            <td rowspan="3">row2-nasted table1
+                <table border="1">
+                    <tr>
+                        <th>row1 header1</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1 header1</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1 header1</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>row2-item4 a <br> second line</td>
+        </tr>
+        <tr>
+            <td rowspan="2">row3-nested table2
+                <table border="1">
+                    <tr>
+                        <th>row1 header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1 header</th>
+                        <td>item</td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td rowspan="4">row3-item2</td>
+            <td>row3 -item3</td>
+            
+        </tr>
+        <tfoot>
+            <td colspan="4" align="center">row5-last row of outer table</td>
+        </tfoot>
+
+    </table>
+    <br>
+    <hr color="red" width="100%">
+    <br>
+    <br>
+    
+</body>
+</html>
